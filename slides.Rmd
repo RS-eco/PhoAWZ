@@ -1,0 +1,205 @@
+---
+title: "Welche Faktoren beeinflussen die Schweinswal-Verbreitung in der AWZ der Nord- und Ostsee?"
+author: 
+  - "RS-eco"
+date: '17.02.2021'
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: xaringan-themer.css
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+class: my-one-page-font
+
+```{css, echo=F}
+.my-one-page-font {
+  font-size: 30px;
+}
+```
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_duo_accent(
+  primary_color = "#1381B0",
+  secondary_color = "#FF961C",
+  inverse_header_color = "#FFFFFF",
+  extra_css = list(
+    ".has-continuation" = list(
+      "display" = "block !important"
+    )
+  )
+)
+```
+
+
+# AWZ Nord- und Ostsee
+
+- ist geprägt durch Interessenskonflikt zwischen:
+
+--
+
+.pull-left[
+**Nutzung:**
+
+1. Schifffahrt
+
+1. Offshore-Windparks
+
+1. Netzanbindung
+
+1. Rohstoffgewinnung und Infrastruktur
+]
+
+--
+
+.pull-right[
+**Naturschutz:**
+
+1. Biotopschutz <!-- ... -->
+
+1. Gebietsschutz <!--(6 Naturschutzgebiete)-->
+
+1. **Besonderer Artenschutz** <!--(Schweinswal, Seehund und Kegelrobbe)-->
+
+1. Eingriffsregelung <!-- ... -->
+
+]
+
+---
+
+class: my-one-page-font
+
+# Besonderer Artenschutz bei Eingriffen
+
+- Tötungsverbot
+- Störungsverbot
+- Verbot der Beschädigung von Fortpflanzungs- und Ruhestätten
+
+--
+
+=> Bedarf nach Wissen über das natürliche Verbreitungsgebiet und die Habitatspräferenzen der besonders schützenswerten Arten
+
+---
+
+class: my-one-page-font
+
+# Methodik: Verbreitungsmodelle
+
+<img src="figures/SDM-schematic01.png">
+
+---
+
+class: my-one-page-font
+
+# Methodik: Verbreitungsdaten
+
+Ocean Biodiversity Information System (obis.org)
+
+.pull-left[
+<img src="figures/phocoena.jpg", width=100%>
+]
+
+.pull-right[
+<img src="figures/pho_pho_occ.png", width=75%>
+]
+
+---
+
+class: my-one-page-font
+
+# Methodik: Umweltdaten
+
+MARSPEC (Sbrocco & Barber, 2013; marspec.org)
+
+<img src="figures/env_all.png", width=100%>
+
+---
+
+class: my-one-page-font
+
+# Methodik: Verbreitungsmodelle
+
+<img src="figures/SDM-schematic02.png", width=100%>
+
+---
+
+class: my-one-page-font
+
+# Methodik: Verbreitungsmodelle
+
+<img src="figures/SDM-schematic.png">
+
+---
+class: my-one-page-font
+
+# Resultate: bedeutende Faktoren
+
+<img src="figures/rel_inf_gbm.png">
+
+---
+class: my-one-page-font
+
+# Resultate: Reaktionsverlauf
+
+<img src="figures/partial_response.png", width=100%>
+
+---
+class: my-one-page-font
+
+# Resultate: Artverbreitung
+
+<img src="figures/pho_pho_prob_all.png", width=55%>
+
+---
+class: my-one-page-font
+
+# Resultate: Artverbreitung AWZ
+
+<img src="figures/pho_pho_prob.png">
+
+---
+class: my-one-page-font
+
+# Resultate: Artverbreitung AWZ
+
+<img src="figures/pho_pho_bin.png">
+
+---
+
+class: my-one-page-font
+
+# Diskussion
+
+--
+
+- Tiefe ist wichtigste erklärende Variable?
+
+--
+
+- Berücksichtigung von anthropogenen Störungen fehlt
+
+--
+
+- Modelle sind immer nur so gut wie die zugrundliegenden Daten
+
+--
+
+- Alternative Methoden: Occupancy Modelle, Resource Selection Functions, Richness Modelle
+
+--
+
+- **Alle Modelle sind falsch, aber einige sind nützlich!**
+
+---
+
+class: my-one-page-font, inverse, center, middle
+
+# Vielen Dank für Ihre Aufmerksamtkeit!
